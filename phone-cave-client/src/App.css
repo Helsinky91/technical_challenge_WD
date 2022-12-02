@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Source+Code+Pro&family=Syne+Mono&family=VT323&family=Viga&display=swap');
+
+
+.App {
+  text-align: center;
+  background-color: rgba(5, 202, 136, 0.319);
+  min-height: 100vh;
+  font-family: 'Viga', sans-serif;
+}
+
+.btn {
+  background-color: brown;
+  padding: 8px;
+  font-size: 30px;
+  font-family: 'Syne Mono', monospace;
+  color:white;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  border: solid 3px rgb(23, 14, 195);
+  color:black
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.phone-details {
+ margin-left: 150px;
+ margin-right: 150px;
+ 
+}
+.phone-details p{
+  text-align: justify;
+}
+.phone-details ul {
+  list-style-type: none
+}
